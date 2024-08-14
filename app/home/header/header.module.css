@@ -16,7 +16,7 @@
     font-weight: lighter;
 }
 .shopNowBtn{
-    text-decoration: underline;
+    color: white;
     cursor: pointer;
     animation: animshopnow 2s infinite;
 }
@@ -53,6 +53,10 @@
     align-items: center;
     gap: 50px;
 }
+.middle > *{
+    color: black;
+    text-decoration: none;
+}
 .right{
     display: flex;
     gap: 5px;
@@ -62,46 +66,5 @@
 .middle > *:hover{
     text-decoration: underline;
     cursor: pointer;
-}
-
-
-.navDown{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.categoriesContainer{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    height: 344px;
-    justify-content: space-between;
-}
-.categoriesContainer > *:hover{
-    cursor: pointer;
-    text-decoration: underline;
-}
-.board{
-    width: 800px;
-    height: 328px;
-    display: flex;
-    color:white;
-}
-.boardLeft{
-    background: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-}
-.voucher{
-    font-size: 40px;
-    font-weight: bold;
-}
-.boardRight{
-    background-image: url('../../images/board.png');
-    background-repeat: no-repeat;
-    width: 500px;
-    height: 100%;
+    transform: scale(1.1);
 }

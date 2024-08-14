@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    width: 100%;
+}
+.title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 36px;
+    font-weight: 900;
+}
+.timer{
+    margin-left: -50%;
+}
+.dir{
+    display: flex;
+    gap: 10px;
+}
+.dir > *:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

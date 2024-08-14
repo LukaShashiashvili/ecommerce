@@ -1,0 +1,14 @@
+.titleContainer{
+    display: flex;
+    gap: 16px;
+    align-self: flex-start;
+}
+.cube{
+    width: 20px;
+    height: 40px;
+    background: #BE123C;
+}
+
+.title{
+    color: #BE123C;
+}
