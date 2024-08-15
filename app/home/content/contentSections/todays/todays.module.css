@@ -23,3 +23,45 @@
     cursor: pointer;
     transform: scale(1.2);
 }
+
+.productsContainer{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    gap: 20px;
+}
+.productList{
+    width: 270px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.productList:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+.productImage{
+    width: 130px;
+    height: 140px;
+    align-self: center;
+}
+.addToCart{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+}
+.pInfo{
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    justify-content: space-between;
+}
+.pPrice{
+    color: rgb(190, 4, 4);
+}
+.lButton{
+    text-decoration: none;
+}

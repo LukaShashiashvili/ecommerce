@@ -1,0 +1,22 @@
+.container{
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+}
+.container:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.red{
+    background-color: #BE123C;
+}
+.red:hover{
+    background-color: #FB7185;
+}
+.green{
+    background-color: #047857;
+}
+.green:hover{
+    background-color: #34D399;
+}

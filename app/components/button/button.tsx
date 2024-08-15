@@ -6,8 +6,20 @@ interface Props{
     onClick?: Function;
     type: 'red' | 'green';
 }
-export default function Button(){
+export const Button = (props: Props) => {
+
+    const classNames = [styles.container];
+
+    if(props.type === 'red'){
+        classNames.push(styles.red)
+    } else classNames.push(styles.green)
+    if(props.clName){
+        classNames.push(props.clName)
+    }
+
     return(
-        <button className={styles.buttonContainer}></button>
+        <div className={classNames.join(' ')}>
+            {props.title}
+        </div>
     )
 }
