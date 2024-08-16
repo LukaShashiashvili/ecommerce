@@ -1,0 +1,31 @@
+.main{
+    width: 1170px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.photo{
+    background: url(../../../../images/jbl.png) no-repeat;
+    width: 567px;
+    height: 330px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 443px;
+}
+.miniTitle{
+    color: greenyellow;
+}
+.bigTitle{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.lButton{
+    text-decoration: none;
+}

@@ -9,21 +9,23 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 interface Product{
+    id: number,
     title: string,
     image: string,
+    category: string,
+    description: string,
     price: number,
 }
 
 export default function Todays(){
-
+    
     const [products, setProducts] = useState([]);
-
     useEffect(() => {
         axios.get('https://fakestoreapi.com/products')
              .then((result) => {
-                setProducts(result.data)
+                    setProducts(result.data)
              })
-    })
+    }, [])
 
     return(
         <main className={styles.main}>
@@ -36,6 +38,7 @@ export default function Todays(){
                     <Right></Right>
                 </div>
             </div>
+            
             <ul className={styles.productsContainer}>
                 {
                     products.map((product: Product) => 
