@@ -1,0 +1,13 @@
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+    width: 300px;
+    padding: 35px;
+    align-self: flex-end;
+}
+.description{
+    color: #d9d9d9e7
+}

@@ -35,32 +35,11 @@
 .boardLeft > * {
     color: white;
 }
-.shopNowBtn{
-    color: white;
-    cursor: pointer;
-    animation: animshopnow 2s infinite;
-}
-.shopNowBtn:hover{
-    transform: scale(1.2);
-}
-@keyframes animshopnow{
-    0%{
-        font-weight: lighter;
-    }
-    50%{
-        font-weight: bolder;
-    }
-    100%{
-        font-weight: lighter;
-    }
-}
 .voucher{
     font-size: 40px;
     font-weight: bold;
 }
 .boardRight{
-    background-image: url('../../images/board.png');
-    background-repeat: no-repeat;
     width: 500px;
     height: 100%;
 }

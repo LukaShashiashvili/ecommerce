@@ -1,18 +1,8 @@
-.main{
-    display: flex;
-    flex-direction: column;
-    gap:5px;
-    width: 100%;
-}
 .title{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.bigTitle{
-    font-size: 36px;
-    font-weight: 900;
 }
 .lButton{
     text-decoration: none;
@@ -22,6 +12,7 @@
     width: 100%;
     overflow-x: scroll;
     gap: 20px;
+    padding-top: 5px;
 }
 .productList{
     width: 270px;
@@ -33,6 +24,12 @@
 .productList:hover{
     cursor: pointer;
     transform: translateY(-5px);
+    border: 1px #be123d75 solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    .addToCart{
+        opacity: 1;
+    }
 }
 .productImage{
     width: 130px;
@@ -45,6 +42,12 @@
     color: white;
     text-align: center;
     margin-top: -30px;
+    opacity: 0;
+    border-radius: 5px;
+}
+.addToCart:hover{
+    background-color: white;
+    color: black;
 }
 .pInfo{
     display: flex;

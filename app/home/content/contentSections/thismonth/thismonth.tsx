@@ -5,6 +5,8 @@ import { Button } from '@/app/components/button/button';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import Main from '@/app/components/mainStyle/main';
+import BigTitle from '@/app/components/bigTitles/bigTitle';
 
 interface Product{
     id: number,
@@ -26,12 +28,13 @@ export default function Thismonth(){
     })
 
     return(
-        <main className={styles.main}>
+        <Main>
             <Title title={'This Month'}></Title>
             <div className={styles.title}>
-                <div className={styles.bigTitle}>Best Selling Products</div>
-                <Link href={'/shop'} className={styles.lButton}><Button title={'View All'} type={'red'}>
-                </Button></Link>
+                <BigTitle title={'Best Selling Products'}></BigTitle>
+                <Link href={'/shop'} className={styles.lButton}>
+                    <Button title={'View All'} type={'red'}></Button>
+                </Link>
             </div>
             <ul className={styles.productsContainer}>
                 {
@@ -48,6 +51,6 @@ export default function Thismonth(){
                     </li>)
                 }
             </ul>
-        </main>
+        </Main>
     )
 }

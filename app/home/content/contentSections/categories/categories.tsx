@@ -5,6 +5,8 @@ import axios from "axios";
 import Title from "@/app/components/contentTitles/titles";
 import Left from "@/app/components/images/left";
 import Right from "@/app/components/images/right";
+import Main from "@/app/components/mainStyle/main";
+import BigTitle from "@/app/components/bigTitles/bigTitle";
 
 export default function Categories(){
 
@@ -21,10 +23,10 @@ export default function Categories(){
              })
     })
     return(
-        <main className={styles.main}>
+        <Main>
             <Title title="Categories"></Title>
             <div className={styles.title}>
-                <div className={styles.bigTitle}>Browse By Categories</div>
+                <BigTitle title={'Browse By Categories'}></BigTitle>
                 <div className={styles.dir}>
                     <Left></Left>
                     <Right></Right>
@@ -39,6 +41,6 @@ export default function Categories(){
                 </li>)
             }
             </ul>
-        </main>  
+        </Main>  
     )
 }

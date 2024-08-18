@@ -1,3 +1,4 @@
+import { ShopNowBtn } from "@/app/components/shopNowBtn/shopNowBtn";
 import styles from "./navigation.module.css";
 import Link from "next/link";
 
@@ -21,9 +22,9 @@ export function Navigation(){
                     <div className={styles.boardLeft}>
                         <span>iPhone 14 Series</span>
                         <span className={styles.voucher}>Up to 10% off Voucher</span>
-                        <Link href={"/shop"} className={styles.shopNowBtn}>Shop Now</Link>
+                        <Link href={"/shop"}><ShopNowBtn></ShopNowBtn></Link>
                     </div>
-                    <div className={styles.boardRight}></div>
+                    <img src={'/images/board.png'} className={styles.boardRight}/>
                 </div>
             </div>
         </main>

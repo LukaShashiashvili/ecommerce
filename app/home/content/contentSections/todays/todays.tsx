@@ -7,6 +7,8 @@ import Right from "@/app/components/images/right";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Main from "@/app/components/mainStyle/main";
+import BigTitle from "@/app/components/bigTitles/bigTitle";
 
 interface Product{
     id: number,
@@ -28,10 +30,10 @@ export default function Todays(){
     }, [])
 
     return(
-        <main className={styles.main}>
+        <Main>
             <Title title="Today's"></Title>
             <div className={styles.title}>
-                <div className={styles.bigTitle}>Today's Best</div>
+                <BigTitle title={"Today's Best"}></BigTitle>
                 <div className={styles.timer}>03:23:19:56</div>
                 <div className={styles.dir}>
                     <Left></Left>
@@ -55,6 +57,6 @@ export default function Todays(){
                 }
             </ul>
             <Link href={"/shop"} className={styles.lButton}><Button title={"View All Products"} type={"red"}></Button></Link>
-        </main>
+        </Main>
     )
 }

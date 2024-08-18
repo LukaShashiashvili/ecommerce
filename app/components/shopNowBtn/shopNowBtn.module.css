@@ -1,0 +1,18 @@
+.main{
+    color: white;
+    cursor: pointer;
+    animation: animshopnow 2s infinite;
+    text-decoration: underline;
+}
+
+@keyframes animshopnow{
+    0%{
+        font-weight: lighter;
+    }
+    50%{
+        font-weight: bolder;
+    }
+    100%{
+        font-weight: lighter;
+    }
+}

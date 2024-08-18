@@ -1,6 +1,6 @@
 .main{
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    width: 1200px;
+    gap:5px;
+    width: 100%;
 }

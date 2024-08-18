@@ -6,7 +6,7 @@
 }
 
 .topHeader{
-    width: 100%;
+    width: 1440px;
     background: black;
     color: white;
     padding: 5px;
@@ -14,23 +14,6 @@
     gap: 10px;
     justify-content: center;
     font-weight: lighter;
-}
-.shopNowBtn{
-    color: white;
-    cursor: pointer;
-    animation: animshopnow 2s infinite;
-}
-
-@keyframes animshopnow{
-    0%{
-        font-weight: lighter;
-    }
-    50%{
-        font-weight: bolder;
-    }
-    100%{
-        font-weight: lighter;
-    }
 }
 
 .nav{

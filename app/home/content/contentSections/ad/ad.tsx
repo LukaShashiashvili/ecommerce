@@ -11,8 +11,7 @@ export default function Ad(){
                 <span className={styles.timer}>timer here!!!</span>
                 <Link href={'/product?${id} just test'} className={styles.lButton}><Button title={'Buy Now'} type='green'></Button></Link> 
             </div>
-            <div className={styles.photo}>
-            </div>
+            <img src={'/images/jbl.png'} className={styles.photo}/>
         </main>
     )
 }
