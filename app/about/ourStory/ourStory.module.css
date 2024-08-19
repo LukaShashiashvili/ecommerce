@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+.photo{
+    max-width: 100%;
+    max-height: 100%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-size: 54px;
+    font-weight: 700;
+}
+.span1, .span2{
+    font-family: 'Poppins';
+    line-height: 3vh;
+}

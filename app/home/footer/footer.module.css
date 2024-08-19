@@ -1,15 +1,16 @@
 .main{
     width: 1440px;
-    height: 350px;
+    height: auto;
     background-color: black;
-    margin-top: 100px;
     color: white;
 }
 .footer{
+    max-height: 100%;
     display: flex;
     flex-direction: row;
     gap: 120px;
     justify-content: center;
+    padding: 50px;
 }
 .footerList{
     display: flex;

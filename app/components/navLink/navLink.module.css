@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    gap: 15px;
+    align-self: flex-start;
+}
+.prev{
+    color: rgba(128, 128, 128, 0.5);
+    text-decoration: none;
+}
+.prev:hover{
+    color: black;
+    text-decoration: underline;
+}
+.curr{
+    text-decoration: none;
+    color: black;
+}
