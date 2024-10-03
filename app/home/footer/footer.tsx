@@ -1,6 +1,5 @@
 import Main from '@/app/components/mainStyle/main';
 import styles from './footer.module.css';
-import Line from '@/app/components/images/line';
 import Link from 'next/link';
 
 export default function Footer(){

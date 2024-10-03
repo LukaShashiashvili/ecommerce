@@ -1,0 +1,36 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.form > input:not(:last-child){
+    border: none;
+    border-bottom: 2px rgb(126, 126, 126) solid;
+}
+.form > input{
+    outline: none;
+}
+.error{
+    background-color:#FB7185;
+    color: rgb(254, 254, 254);
+    width: 220px;
+    text-align: center;
+    border-radius: 5px;
+}
+.google{
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+}
+.google:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.addLinks{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.addLinks span{
+    margin-top: 25px;
+}

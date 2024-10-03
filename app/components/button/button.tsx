@@ -4,6 +4,7 @@ interface Props{
     title: string | number;
     clName?: string;
     onClick?: Function;
+    children?: React.ReactNode;
     type: 'red' | 'green';
 }
 export const Button = (props: Props) => {

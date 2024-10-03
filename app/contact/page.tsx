@@ -6,6 +6,7 @@ import Footer from '../home/footer/footer';
 import Header from '../home/header/header';
 import styles from './contact.module.css';
 import {useForm, SubmitHandler} from 'react-hook-form';
+import { Submit } from '../components/Submit/submit';
 
 type Input = {
     name: string;
@@ -77,7 +78,7 @@ export default function Contact(){
                             )}
                             placeholder='Your Message'></textarea>
                         <span className={styles.error}>{errors.message?.message}</span>
-                        <input className={styles.submit} id='submit' type="submit" value="Send your message" />
+                        <Submit title={'Send your message'}></Submit>
                     </form>
                 </div>
             </Main>

@@ -1,0 +1,22 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form > input:not(:last-child){
+    border: none;
+    border-bottom: 2px rgb(126, 126, 126) solid;
+}
+.form > input{
+    outline: none;
+}
+.error{
+    background-color:#FB7185;
+    color: rgb(254, 254, 254);
+    width: 220px;
+    text-align: center;
+    border-radius: 5px;
+}
+.authButton{
+    margin-top: 15px;
+}

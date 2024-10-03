@@ -45,7 +45,11 @@
     gap: 5px;
     align-items: center;
 }
-
+.right input{
+    outline: none;
+    border: none;
+    border-bottom: 1px gray solid;
+}
 .middle > *:hover{
     text-decoration: underline;
     cursor: pointer;

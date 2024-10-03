@@ -1,0 +1,7 @@
+.container{
+    text-decoration:underline;
+    cursor: pointer;
+}
+.container:hover{
+    color: #BE123C;
+}

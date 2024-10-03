@@ -1,0 +1,13 @@
+.container{
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: #BE123C;
+    border: none;
+}
+.container:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #FB7185;
+}

@@ -1,0 +1,11 @@
+.content{
+    display: flex;
+    width: 1400px;
+    max-width: 100%;
+    gap: 130px;
+    align-items: center;
+}
+
+.photo{
+    max-width: 50%;
+}

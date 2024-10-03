@@ -17,7 +17,7 @@ export default function Header(){
                         <Link href={"/"} className={styles.home}>Home</Link>
                         <Link href={"/contact"}className={styles.contact}>Contact</Link>
                         <Link href={"/about"} className={styles.about}>About</Link>
-                        <Link href={"/authorization/register"} className={styles.auth}>Authorization</Link>
+                        <Link href={"/authorization"} className={styles.auth}>Authorization</Link>
                     </div>
                     <div className={styles.right}>
                         <input type="text" placeholder="What are you looking for?" />
